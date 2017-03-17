@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="jquery.fullPage.css">
+	<link rel="stylesheet" href="bdyq.css">
+	<script src="jquery.js"></script>
+	<script src="jquery/1.8.3/jquery.min.js"></script>
+	<script src="jquery.fullPage.min.js"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="top_a">
+			<div class="logo"></div>
+			<ul class="dhl_a">
+				<li><a href="">首页</a></li>
+				<li><a href="">产品介绍</a></li>
+				<li><a href="">用户板</a></li>
+			</ul>
+			<ul class="top_b">
+				<li style="position:relative;">
+					<a href="" style="margin-right:30px;">手机客户端</a>
+					<div class="hot"></div>
+				</li>
+				<li><a href="">百度司南</a></li>
+				<li><a href="">联系我们</a></li>
+				<li><a href="" style="color:yellow;">申请使用</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="box">
+		<div class="section page1">
+			<div class="cloud1"></div>
+			<div class="kh">
+				<div class="kh_a">
+					<img src="img/16.png" alt="">
+				</div>
+				<div class="fj">
+					<img src="img/fj.png" alt="">
+				</div>
+			</div>
+			<div class="zck">
+				<div class="zck_a">
+					<div class="zck_a_a">
+						<div class="zck_a_a_a"></div>
+					</div>
+					<input type="text" value="用户名">
+				</div>
+				<div class="zck_b">
+					<div class="zck_a_a">
+						<div class="zck_a_a_a" style="background: url(img/30.png)-142px -13px no-repeat;"></div>
+					</div>
+					<input type="text" value="密码">
+				</div>
+				<div class="zck_c"></div>
+				<div class="zck_d">登录</div>
+				<div class="zck_e"></div>
+			</div>
+			<div class="haidi">
+				<div class="hd_a"></div>
+				<div class="hd_b"></div>
+				<div class="hd_c"></div>
+				<div class="hd_d"></div>
+				<div class="xyy"></div>
+			</div>
+<!-- 			<div class="xyy"></div> -->
+		</div>
+		<div class="section page2">
+			<!-- <div class="nr_bj"> -->
+				<div class="nr_left">
+					<div class="nr_left_a"></div>
+					<p class="nr_left_b">数据收集与处理</p>
+					<p class="nr_left_c">15年专业数据收集与语义分析技术积累
+					卓越极致，不断攀登</p>
+				</div>
+			<!-- </div> -->
+			<div class="nr_right"></div>
+			<!-- <div class="page2_bottom">
+				<div class="page2_bottom_a"></div>
+				<div class="page2_bottom_b"></div>
+				<div class="page2_bottom_c"></div>
+				<div class="page2_bottom_d"></div>
+				<div class="page2_bottom_e"></div>
+			</div> -->
+			<div class="bottom_b">
+				<div style="width:1000px;height: 88px;margin:0 auto;">
+					<div class="page2_bottom_a"></div>
+					<div class="page2_bottom_b"></div>
+					<div class="page2_bottom_c"></div>
+					<div class="page2_bottom_d"></div>
+					<div class="page2_bottom_e"></div>
+					<div class="xyy"></div>
+				</div>
+			</div>
+		</div>
+		<div class="section page3">
+			<div class="nr_left">
+				<div class="nr_left_a" style="background: url(img/25.png)no-repeat;"></div>
+				<p class="nr_left_b">舆情分析逻辑与架构</p>
+				<p class="nr_left_c">声量诊断、传播分析、情感提炼、受众画像
+				有方法论，更有智慧</p>
+			</div>
+			<div class="nr_right" style="background: url(img/26.png)no-repeat;"></div>
+			<div class="bottom_c" style="height:138px;">
+				<div class="xyy"></div>
+			</div>
+		</div>
+		<div class="section page4">
+			<div class="nr_left">
+				<div class="nr_left_a" style="background: url(img/28.png)no-repeat;"></div>
+				<p class="nr_left_b">舆情分析逻辑与架构</p>
+				<p class="nr_left_c">声量诊断、传播分析、情感提炼、受众画像
+				有方法论，更有智慧</p>
+			</div>
+			<div class="nr_right" style="width:603px;height:361px;background: url(img/29.png)no-repeat;"></div>
+			<div class="bottom_d">© 2014 Baidu使用百度前必读</div>
+		</div>
+	</div>
+	<style>
+	*{
+		text-decoration: none;
+	}
+	body,ul,li,p{
+		margin: 0;
+		padding: 0;
+		list-style:none;
+		
+	}
+/*	.xyy{
+		width: 200px;
+		height: 200px;
+		background: red;
+		position: absolute;
+		left: 0;
+		top:0;
+	}*/
+	.top{
+		width: 100%;
+		height: 60px;
+		background: #168BD8;
+		position: fixed;
+		top: 0;
+		z-index: 9999;
+	}
+	.top_a{
+		width: 1000px;
+		height: 60px;
+		margin: 0 auto;
+	}
+	.top_b{
+		float: right;
+		padding-top: 40px;
+	}
+	.top_b li{
+		height: 20px;
+		float: left;
+		margin-left: 20px;
+	}
+	.top_b a{
+		float: left;
+		font-size: 12px;
+		color: #fff;
+	}
+	.hot{
+		width: 32px;
+		height: 25px;
+		background: url(img/15.png)-94px -147px no-repeat;
+		position: absolute;
+		right: -10px;
+		top:-20px;
+	}
+	.logo{
+		width: 120px;
+		height: 40px;
+		background: url(img/15.png)no-repeat;
+		float: left;
+		margin-top: 10px;
+	}
+	.dhl_a{
+		width: 300px;
+		height: 60px;
+		float: left;
+		margin-left: 60px;
+	}
+	.dhl_a li{
+		width: 100px;
+		height: 60px;
+		float: left;
+		text-align: center;
+	}
+	.dhl_a a{
+		line-height: 80px;
+		margin-left: 10px;
+		color: #fff;
+		font-size: 14px;
+	}
+	.page1{
+		background: url(img/11.jpg);
+	}
+	.page2{
+		background: url(img/12.jpg);
+		padding-top: 1px;
+	}
+	.page3{
+		background: url(img/13.jpg);
+	}
+	.page4{
+		background: url(img/14.jpg);
+	}
+	</style>
+	<script>	
+$('.box').fullpage({
+	navigation:true,
+	verticalCentered:"false",
+	navigationTooltips:['登陆百度舆情','领先：数据收集与处理','全面：舆情分析逻辑与架构','专业：专业数据可视化']
+})
+$('.xyy').click(function(){
+	$.fn.fullpage.moveSectionDown()
+})
+
+	</script>
+</body>
+</html>
